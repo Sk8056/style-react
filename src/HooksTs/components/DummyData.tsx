@@ -1,0 +1,1 @@
+export const DummyData: number[] = new Array(3).fill(1);
