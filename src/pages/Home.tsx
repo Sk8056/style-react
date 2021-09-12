@@ -1,8 +1,9 @@
 import { FC } from "react";
-import Navbar from "../components/Navbar";
+import { Navbar, Announcements } from "../components";
 export const Home: FC = () => {
   return (
     <div>
+      <Announcements />
       <Navbar />
     </div>
   );

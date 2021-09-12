@@ -5,11 +5,9 @@ import styled from "styled-components";
 
 const Container = styled.div`
   height: 60px;
-  background-color: black;
 `;
 
 const Wrapper = styled.div`
-  background-color: yellow;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -17,7 +15,6 @@ const Wrapper = styled.div`
 `;
 
 const Left = styled.div`
-  border: 1px solid black;
   flex: 1;
   display: flex;
   align-items: center;
@@ -38,6 +35,7 @@ const SearchContainer = styled.div`
 
 const Input = styled.input`
   border: none;
+  outline: none;
 `;
 
 const Logo = styled.h1`
@@ -45,13 +43,11 @@ const Logo = styled.h1`
 `;
 
 const Center = styled.div`
-  border: 1px solid black;
   flex: 1;
   text-align: center;
 `;
 
 const Right = styled.div`
-  border: 1px solid black;
   flex: 1;
   display: flex;
   align-items: center;
@@ -76,7 +72,7 @@ const Navbar: FC<{}> = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>E-Commerce</Logo>
+          <Logo>React</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
