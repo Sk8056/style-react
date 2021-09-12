@@ -1,9 +1,10 @@
 import { FC } from "react";
+import { Home } from "../pages";
 
 const EcommerceApp: FC<{}> = () => {
   return (
     <>
-      <h1>Ecommerce App</h1>
+      <Home />
     </>
   );
 };
