@@ -5,6 +5,7 @@ import {
   Slider,
   Categories,
   Product,
+  NewsLetter,
 } from "../components";
 export const Home: FC = () => {
   return (
@@ -14,6 +15,7 @@ export const Home: FC = () => {
       <Slider />
       <Categories />
       <Product />
+      <NewsLetter />
     </div>
   );
 };

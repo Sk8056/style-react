@@ -3,5 +3,6 @@ import Announcements from "./Announcements";
 import Slider from "./Slider";
 import Categories from "./Categories";
 import Product from "./Product";
+import NewsLetter from "./NewsLetter";
 
-export { Navbar, Announcements, Slider, Categories, Product };
+export { Navbar, Announcements, Slider, Categories, Product, NewsLetter };
