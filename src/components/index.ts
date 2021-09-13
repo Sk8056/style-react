@@ -4,5 +4,14 @@ import Slider from "./Slider";
 import Categories from "./Categories";
 import Product from "./Product";
 import NewsLetter from "./NewsLetter";
+import Footer from "./Footer";
 
-export { Navbar, Announcements, Slider, Categories, Product, NewsLetter };
+export {
+  Navbar,
+  Announcements,
+  Slider,
+  Categories,
+  Product,
+  NewsLetter,
+  Footer,
+};

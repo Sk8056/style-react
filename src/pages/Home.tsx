@@ -6,6 +6,7 @@ import {
   Categories,
   Product,
   NewsLetter,
+  Footer,
 } from "../components";
 export const Home: FC = () => {
   return (
@@ -16,6 +17,7 @@ export const Home: FC = () => {
       <Categories />
       <Product />
       <NewsLetter />
+      <Footer />
     </div>
   );
 };
