@@ -1,5 +1,11 @@
 import { FC } from "react";
-import { Navbar, Announcements, Slider, Categories } from "../components";
+import {
+  Navbar,
+  Announcements,
+  Slider,
+  Categories,
+  Product,
+} from "../components";
 export const Home: FC = () => {
   return (
     <div>
@@ -7,6 +13,7 @@ export const Home: FC = () => {
       <Navbar />
       <Slider />
       <Categories />
+      <Product />
     </div>
   );
 };
