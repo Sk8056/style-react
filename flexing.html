@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Test</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .main_container {
+        border: 1px solid black;
+        display: flex;
+        /* flex-direction: row; */
+      }
+
+      .container {
+        border: 1px solid yellow;
+        /* flex: 1; */
+        height: 50vh;
+        margin: 10px;
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
+        /* object-fit: cover; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="container">
+        <img
+          src="https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          alt="test"
+        />
+      </div>
+      <div class="container">
+        <img
+          src="https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          alt="test"
+        />
+      </div>
+    </div>
+  </body>
+</html>
