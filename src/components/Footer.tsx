@@ -10,7 +10,7 @@ import styled from "styled-components";
 const Container = styled.div``;
 
 const Footer: FC<{}> = () => {
-  return <Container>Footer</Container>;
+  return <Container>Footer redeploy test</Container>;
 };
 
 export default Footer;
