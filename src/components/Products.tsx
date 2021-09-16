@@ -67,7 +67,7 @@ const Icon = styled.div`
     transform: scale(1.1);
   }
 `;
-const ProductList: FC<ProductProp> = ({ img }) => {
+const Products: FC<ProductProp> = ({ img }) => {
   return (
     <Container>
       <Circle />
@@ -87,4 +87,4 @@ const ProductList: FC<ProductProp> = ({ img }) => {
   );
 };
 
-export default ProductList;
+export default Products;

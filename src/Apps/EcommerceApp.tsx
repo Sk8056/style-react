@@ -1,10 +1,9 @@
 import { FC } from "react";
-import { Home } from "../pages";
-
+import { Product } from "../pages/Product";
 const EcommerceApp: FC<{}> = () => {
   return (
     <>
-      <Home />
+      <Product />
     </>
   );
 };

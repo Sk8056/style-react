@@ -22,9 +22,11 @@ const Left = styled.div`
 `;
 const Center = styled.div`
   flex: 1;
+  padding: 20px;
 `;
 const Right = styled.div`
   flex: 1;
+  padding: 20px;
 `;
 const Title = styled.h1`
   margin-bottom: 30px;

@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { popularProducts } from "../data";
 import styled from "styled-components";
-import ProductList from "./ProductList";
+import Products from "./Products";
 
 /* Prop Type */
 export interface ProductProp {
@@ -21,7 +21,7 @@ const Product: FC<{}> = () => {
   return (
     <Container>
       {popularProducts.map((product: ProductProp) => (
-        <ProductList key={product.id} img={product.img} id={product.id} />
+        <Products key={product.id} img={product.img} id={product.id} />
       ))}
     </Container>
   );
