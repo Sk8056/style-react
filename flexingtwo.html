@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexing Two</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+      .main_container {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+        background-color: palegreen;
+      }
+
+      .common {
+        margin: 10px 0;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      .center_container {
+        flex: 1;
+        background: coral;
+      }
+
+      .section {
+        flex: 2;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .left {
+        flex: 1;
+        background-color: yellow;
+        margin-right: 10px;
+      }
+
+      .center {
+        flex: 2;
+        background-color: teal;
+        margin-right: 10px;
+      }
+
+      .right {
+        flex: 1;
+        background-color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="center_container">
+        <div class="top common">TOP</div>
+      </div>
+      <div class="section">
+        <div class="left common">LEFT</div>
+        <div class="center common">CENTER</div>
+        <div class="right common">RIGHT</div>
+      </div>
+      <div class="center_container">
+        <div class="bottom common">BOTTOM</div>
+      </div>
+    </div>
+  </body>
+</html>

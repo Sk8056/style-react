@@ -1,9 +1,9 @@
 import { FC } from "react";
-import { Product } from "../pages/Product";
+import { Cart } from "../pages/Cart";
 const EcommerceApp: FC<{}> = () => {
   return (
     <>
-      <Product />
+      <Cart />
     </>
   );
 };

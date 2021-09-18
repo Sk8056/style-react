@@ -57,7 +57,7 @@ const Right = styled.div`
 const MenuItem = styled.div`
   font-size: 14px;
   cursor: pointer;
-  margin-left: 5px;
+  margin-left: 15px;
 `;
 
 const Navbar: FC<{}> = () => {

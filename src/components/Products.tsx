@@ -7,6 +7,8 @@ import {
   ShoppingCartOutlined,
 } from "@material-ui/icons";
 
+//container, cirlce, image, info, icon
+
 const Info = styled.div`
   opacity: 0;
   position: absolute;
